@@ -1,0 +1,61 @@
+<p class="main">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget odio lorem. Donec ut vulputate justo. Morbi non
+  lectus at magna consequat pharetra auctor quis quam. Curabitur nec augue erat. Maecenas sed purus ornare, vestibulum
+  lacus vitae, sollicitudin diam. Fusce lacinia turpis eu dui scelerisque, eget volutpat nisl placerat. Suspendisse
+  volutpat condimentum eleifend.
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut arcu ut purus viverra consectetur ut sit amet
+  risus. Curabitur et pretium arcu. Sed maximus accumsan bibendum. Mauris finibus urna in enim iaculis, eget fermentum
+  odio consectetur. Maecenas id nisl a enim tristique elementum ac ut eros. Nunc efficitur dui ac pharetra pulvinar.
+  Quisque maximus ultricies dignissim. Integer non eleifend est, vitae volutpat metus. Etiam vulputate nulla purus, nec
+  rhoncus lorem elementum et.
+</p>
+
+{{!-- Error message container --}}
+<div id="error-message" class="alert alert-danger" style="display: none;"></div>
+
+{{!-- Login/Sign up form --}}
+
+<div class="row m-5">
+  <div class="col-md-6">
+    <h2>Login</h2>
+
+    <form class="form login-form">
+      <div class="form-group">
+        <label for="login-user">Username:</label>
+        <input class="form-input" type="text" id="login-user" />
+      </div>
+      <div class="form-group">
+        <label for="login-password">Password:</label>
+        <input class="form-input" type="password" id="login-password" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">Login</button>
+      </div>
+    </form>
+  </div>
+  <div class="col-md-6">
+    <h2>Signup</h2>
+
+    <form class="form signup-form">
+      <div class="form-group">
+        <label for="signup-user">Username:</label>
+        <input class="form-input" type="text" id="signup-user" />
+      </div>
+      <div class="form-group">
+        <label for="signup-email">Email:</label>
+        <input class="form-input" type="text" id="signup-email" />
+      </div>
+      <div class="form-group">
+        <label for="signup-password">Password:</label>
+        <input class="form-input" type="password" id="signup-password" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">Signup</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="/js/userLogin.js"></script>
+<script src="/js/userSignUp.js"></script>
