@@ -10,14 +10,14 @@
         "phoneNumber": "6477891234",
         "age": "23",
         "gender": "female",
-        "biologicalSex": "female",
-        "maritalStatus": "single",
+        "condition": "N/A",
         "ethnicity": "caucasian",
         "occupation": "teacher",
         "allergies": "",
         "emergencyContactfullName": "George Jones",
         "emergencyContactNumber": "6478901245",
-        "isActive": true
+        "isActive": true,
+        "image": ""
     },
     {
         "fullName": "Henry Rogers",
@@ -30,14 +30,14 @@
         "phoneNumber": "6479874367",
         "age": "48",
         "gender": "male",
-        "biologicalSex": "male",
-        "maritalStatus": "married",
+        "condition": "re-occuring gout",
         "ethnicity": "asian",
         "occupation": "construction",
-        "allergies": "",
+        "allergies": "peanuts",
         "emergencyContactfullName": "Mary Rogers",
         "emergencyContactNumber": "6478764378",
-        "isActive": true
+        "isActive": true,
+        "image": ""
     }, 
     {
         "fullName": "Igor Schmit",
@@ -50,13 +50,13 @@
         "phoneNumber": "6477651298",
         "age": "21",
         "gender": "male",
-        "biologicalSex": "male",
-        "maritalStatus": "single",
+        "condition": "",
         "ethnicity": "caucasian",
         "occupation": "technician",
         "allergies": "penicillin",
         "emergencyContactfullName": "Ivan Schmit",
         "emergencyContactNumber": "6477653789",
-        "isActive": true
+        "isActive": true,
+        "image": ""
     }
 ]

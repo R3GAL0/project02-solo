@@ -69,12 +69,6 @@ Patient.init(
         gender: {
             type: DataTypes.STRING,            
         },
-        biologicalSex: {
-            type:DataTypes.STRING,
-        },
-        maritalStatus: {
-            type: DataTypes.STRING,            
-        },
         ethnicity: {
             type: DataTypes.STRING,            
         },
@@ -98,6 +92,12 @@ Patient.init(
         isActive: {
             type: DataTypes.BOOLEAN,
             defaultValue: true
+        },
+        condition: {
+            type: DataTypes.STRING,
+        },
+        image: {
+            type: DataTypes.STRING,
         }
     },
     {

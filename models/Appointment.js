@@ -40,26 +40,9 @@ Appointment.init(
                 key: 'id'
             }
         },
-        anamnesis: {
+        notes: {
             type: DataTypes.TEXT('medium'),
             allowNull: false,
-        },
-        physical_exam: {
-            type: DataTypes.TEXT('medium'),
-            allowNull: false
-        },
-        initial_diagnosis: {
-            type: DataTypes.STRING,
-            allowNull: false
-        },
-        tests_needed: {
-            type: DataTypes.TEXT("tiny"),
-        },
-        prescription: {
-            type: DataTypes.TEXT("tiny"),
-        },
-        orientation: {
-            type: DataTypes.TEXT('medium'),
         },
         next_appointment: {
             type: DataTypes.DATE,
